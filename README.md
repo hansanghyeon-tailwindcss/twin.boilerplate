@@ -7,13 +7,6 @@
   </a>
 </p>
 
-<p align="center">
-    Packed with examples for different frameworks,<br/>this repo helps you get started with <a href="https://github.com/ben-rogerson/twin.macro">twin.macro</a> a whole lot faster.<br><br>
-    <a href="https://www.npmjs.com/package/twin.macro"><img src="https://img.shields.io/npm/dt/twin.macro.svg" alt="Total Downloads"></a>
-    <a href="https://www.npmjs.com/package/twin.macro"><img src="https://img.shields.io/npm/v/twin.macro.svg" alt="Latest Release"></a>
-    <a href="https://discord.gg/Xj6x9z7"><img src="https://img.shields.io/discord/705884695400939552?label=discord&logo=discord" alt="Discord"></a>
-</p>
-
 ---
 
 [](#examples)
@@ -42,24 +35,3 @@
 - **yarn/npm workspaces + Next.js + shared ui components**<br/>[styled-components](https://github.com/ben-rogerson/twin.examples/tree/master/component-library-styled-components)
 - **Yarn workspaces + Rollup**<br/>[emotion](https://github.com/ben-rogerson/twin.examples/tree/master/component-library-emotion)
 - [**HeadlessUI** (ts)](https://github.com/ben-rogerson/twin.examples/tree/master/headlessui-typescript)
-
-### 임시 Hansanghyeon
-
-- [vite-vitest-library](./vite-vitest-library/README.md)
-
-🎉&nbsp;: Fresh example
-
-[](#contributions)
-
-## Contributions
-
-Contributions are welcome!
-Feel free to report any issues or add a new example to this list via a PR.
-
-[](#community)
-
-## Community
-
-[Drop into our Discord server](https://discord.gg/Xj6x9z7) for announcements, help and styling chat.
-
-<a href="https://discord.gg/Xj6x9z7"><img src="https://img.shields.io/discord/705884695400939552?label=discord&logo=discord" alt="Discord"></a>
