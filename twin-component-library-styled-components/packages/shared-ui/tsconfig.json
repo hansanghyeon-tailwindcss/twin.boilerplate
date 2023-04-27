@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "skipLibCheck": true,
+    // Ensure that .d.ts files are created by tsc, but not .js files
+    "declaration": true,
+    "declarationDir": "components-types",
+    "emitDeclarationOnly": true,
+    // Ensure that Babel can safely transpile files in the TypeScript project
+    "isolatedModules": true,
+    "jsx": "preserve",
+  },
+  "include": [
+    "components/**/*.tsx",
+    "./../../types"
+  ],
+  "typeRoots": [
+    "./../../types",
+    "./../../node_modules/@types"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

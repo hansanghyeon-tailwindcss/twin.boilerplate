@@ -1,0 +1,37 @@
+{
+  "name": "storybook-styled-components-typescript",
+  "babelMacros": {
+    "twin": {
+      "preset": "styled-components"
+    }
+  },
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@storybook/addon-essentials": "^7.0.2",
+    "@storybook/addon-interactions": "^7.0.2",
+    "@storybook/addon-links": "^7.0.2",
+    "@storybook/blocks": "^7.0.2",
+    "@storybook/nextjs": "^7.0.2",
+    "@storybook/react": "^7.0.2",
+    "@storybook/testing-library": "^0.0.14-next.2",
+    "@types/react": "^18.0.33",
+    "@types/styled-components": "^5.1.26",
+    "babel-plugin-styled-components": "^2.1.1",
+    "babel-plugin-twin": "^1.1.0",
+    "storybook": "^7.0.2",
+    "tailwindcss": "^3.3.1",
+    "twin.macro": "^3.3.0",
+    "typescript": "^5.0.3"
+  }
+}

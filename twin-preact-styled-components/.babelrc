@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "babel-plugin-macros",
+    "babel-plugin-styled-components",
+    [
+      "@babel/transform-react-jsx",
+      {
+        "pragma": "h",
+        "pragmaFrag": "Fragment"
+      }
+    ]
+  ]
+}

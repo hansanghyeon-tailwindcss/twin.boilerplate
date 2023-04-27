@@ -1,0 +1,30 @@
+{
+  "babelMacros": {
+    "twin": {
+      "preset": "stitches",
+      "stitchesConfig": "stitches.config.ts"
+    }
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/plugin-syntax-typescript": "^7.21.4",
+    "@types/node": "^18.15.11",
+    "@types/react": "^18.0.33",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-macros": "^3.1.0",
+    "tailwindcss": "^3.3.1",
+    "twin.macro": "^3.3.0",
+    "typescript": "^5.0.4"
+  }
+}

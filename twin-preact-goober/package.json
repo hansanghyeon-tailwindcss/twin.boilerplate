@@ -1,0 +1,28 @@
+{
+  "babelMacros": {
+    "twin": {
+      "preset": "goober"
+    }
+  },
+  "scripts": {
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
+    "build": "preact build",
+    "serve": "preact build && preact serve",
+    "dev": "preact watch"
+  },
+  "dependencies": {
+    "goober": "^2.1.11",
+    "lodash.merge": "^4.6.2",
+    "preact": "^10.11.3"
+  },
+  "devDependencies": {
+    "@agney/babel-plugin-goober-css-prop": "0.0.1",
+    "@babel/core": "7.20.5",
+    "babel-plugin-macros": "^3.1.0",
+    "babel-plugin-transform-goober": "^1.2.0",
+    "if-env": "^1.0.4",
+    "preact-cli": "^3.4.1",
+    "tailwindcss": "^3.2.4",
+    "twin.macro": "^3.1.0"
+  }
+}
