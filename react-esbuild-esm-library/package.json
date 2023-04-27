@@ -1,0 +1,35 @@
+{
+  "name": "imweb-dm",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "yarn clean && node build.js && tsc --emitDeclarationOnly --outDir dist",
+    "clean": "rimraf dist",
+    "dev": "node serve.js",
+    "prepublishOnly": "yarn build"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.24",
+    "@types/react-dom": "^18.0.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "esbuild": "^0.15.12",
+    "eslint": "^8.26.0",
+    "eslint-config-prettier": "^8.5.0",
+    "live-server": "^1.2.2",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  },
+  "files": [
+    "dist"
+  ]
+}

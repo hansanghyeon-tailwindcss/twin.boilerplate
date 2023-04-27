@@ -1,0 +1,38 @@
+version: "3.8"
+
+########################### SERVICES
+services:
+  nginx:
+    image: nginx:alpine
+    ports:
+      - 8080:80
+    volumes:
+      - ./docker/nginx/conf:/etc/nginx/conf.d
+      - wordpress:/var/www/html
+    links:
+      - wordpress
+  wordpress:
+    image: wordpress:php8.0-fpm
+    restart: always
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wp
+      WORDPRESS_DB_NAME: wp
+    volumes:
+      - wordpress:/var/www/html
+  db:
+    image: mariadb
+    restart: always
+    environment:
+      MYSQL_DATABASE: wp
+      MYSQL_USER: wp
+      MYSQL_PASSWORD: wp
+      MYSQL_RANDOM_ROOT_PASSWORD: "1"
+    volumes:
+      - db:/var/lib/mysql
+
+########################### NETWORKS & VOLUMES
+volumes:
+  wordpress:
+  db:

@@ -1,0 +1,3 @@
+path: /var/www/html
+disabled_commands:
+  - db drop
