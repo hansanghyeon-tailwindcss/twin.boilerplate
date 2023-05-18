@@ -6,7 +6,7 @@
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/next-emotion folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-next-emotion folder-name
 ```
 
 From within the new folder, run `npm install`, then `npm run dev` to start the dev server.

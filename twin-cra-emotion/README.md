@@ -6,7 +6,7 @@
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/cra-emotion folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-cra-emotion folder-name
 ```
 
 From within the new folder, run `npm install`, then `npm start` to start the dev server.
@@ -125,7 +125,7 @@ const Input = () => <input tw="bg-black" />
 const Input = () => <input css={tw`bg-black`} />
 ```
 
-> You can automate the injection of the jsx pragma but you’ll need to use a package like [rewire create react app](https://github.com/timarney/react-app-rewired) to allow changes to the project `.babelrc`. Check the [twin emotion + react docs](https://github.com/ben-rogerson/twin.examples/blob/master/react-emotion/README.md) for the babel config to use.
+> You can automate the injection of the jsx pragma but you’ll need to use a package like [rewire create react app](https://github.com/timarney/react-app-rewired) to allow changes to the project `.babelrc`. Check the [twin emotion + react docs](https://github.com/hansanghyeon/boilerplate/twin-blob/master/react-emotion/README.md) for the babel config to use.
 
 > Note: After build, if you’re seeing "process is not defined" then npm install and add `"babel-plugin-transform-inline-environment-variables"` to .babelrc
 

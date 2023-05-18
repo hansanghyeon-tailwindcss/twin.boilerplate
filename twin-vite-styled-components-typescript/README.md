@@ -5,7 +5,7 @@
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/vite-styled-components-typescript folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-vite-styled-components-typescript folder-name
 ```
 
 From within the new folder, run `yarn`, then `yarn dev` to start the dev server.

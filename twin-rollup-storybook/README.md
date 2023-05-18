@@ -4,4 +4,4 @@ vite를 사용하지 않기 때문에 jest로 테스팅을 추가해야한다.
 
 참고
 
-https://github.com/ben-rogerson/twin.examples/tree/master/component-library-emotion
+https://github.com/hansanghyeon/boilerplate/twin-tree/master/component-library-emotion

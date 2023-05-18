@@ -10,7 +10,7 @@ This repository demonstrates a Storybook setup with Emotion in React.
 Either check out the setup in the attached repository or clone this repository with degit:
 
 ```js
-npx degit https://github.com/ben-rogerson/twin.examples/storybook-emotion folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-storybook-emotion folder-name
 ```
 
 ## Notes

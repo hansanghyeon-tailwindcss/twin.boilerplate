@@ -8,7 +8,7 @@ This example uses [Parcel](https://parceljs.org/) to build a [React](https://rea
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/react-styled-components folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-react-styled-components folder-name
 ```
 
 From within the new folder, install run `npm install`/`yarn`, then `npm start`/`yarn start` to start the dev server.

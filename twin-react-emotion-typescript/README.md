@@ -11,7 +11,7 @@ This example uses [Parcel](https://github.com/parcel-bundler/parcel) to build a 
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/react-emotion-typescript folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-react-emotion-typescript folder-name
 ```
 
 From within the new folder, run `npm install`, then `npm start` to start the dev server.

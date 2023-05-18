@@ -5,7 +5,7 @@ This example uses the [create-t3-app](https://create.t3.gg/) CLI to create a new
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/t3-emotion-typescript folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-t3-emotion-typescript folder-name
 ```
 
 From within the new folder, run `npm install`, then `npm run dev` to start the dev server.

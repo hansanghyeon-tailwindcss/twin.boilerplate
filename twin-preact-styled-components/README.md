@@ -10,7 +10,7 @@ This example shows how to use the [styled components](https://styled-components.
 Download this example using [degit](https://github.com/Rich-Harris/degit):
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/preact-styled-components folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-preact-styled-components folder-name
 ```
 
 From within the new folder, run `npm install`, then `npm start` to start the dev server.

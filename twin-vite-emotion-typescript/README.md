@@ -6,7 +6,7 @@
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/vite-emotion-typescript folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-vite-emotion-typescript folder-name
 ```
 
 From within the new folder, run `yarn`, then `yarn start` to start the dev server.

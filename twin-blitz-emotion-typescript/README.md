@@ -8,7 +8,7 @@ This example uses [Blitz.js](https://github.com/blitz-js/blitz) to build a [Next
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/blitz-emotion-typescript app-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-blitz-emotion-typescript app-name
 ```
 
 From within the new folder, run `npm install`, then `npm run dev` to start the dev server.

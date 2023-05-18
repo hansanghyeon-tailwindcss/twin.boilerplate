@@ -9,7 +9,7 @@ The trick is to use Babel to compile typescript (rather than [rollup-plugin-type
 Clone this repository:
 
 ```shell
-npx degit https://github.com/hansanghyeon/boilerplate/twin-component-library-emotion folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-workspace-component-library-emotion folder-name
 ```
 
 Inside the project folder, install the dependencies using yarn workspaces:

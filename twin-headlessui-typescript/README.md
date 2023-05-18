@@ -17,7 +17,7 @@ This example includes customized [HeadlessUI components](https://headlessui.dev/
 **Download this example using [degit](https://github.com/Rich-Harris/degit)**
 
 ```shell
-npx degit https://github.com/ben-rogerson/twin.examples/headlessui-typescript folder-name
+npx degit https://github.com/hansanghyeon/boilerplate/twin-headlessui-typescript folder-name
 ```
 
 From within the new folder, run `npm install`, then `npm start` to start the [Parcel@v2](https://github.com/parcel-bundler/parcel) dev server.
