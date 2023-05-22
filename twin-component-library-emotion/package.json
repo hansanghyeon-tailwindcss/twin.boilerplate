@@ -16,8 +16,8 @@
   "scripts": {
     "type-check": "tsc --noEmit",
     "type-check:watch": "yarn type-check -- --watch",
-    "build:types": "tsc",
-    "build:js": "rollup -c",
+    "build:types": "tsc -p tsconfig.prod.json",
+    "build:js": "rollup -c --bundleConfigAsCjs",
     "build": "yarn build:types && yarn build:js"
   },
   "peerDependencies": {
