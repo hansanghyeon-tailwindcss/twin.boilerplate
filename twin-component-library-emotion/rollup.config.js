@@ -3,6 +3,7 @@ import commonjs from 'rollup-plugin-commonjs'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import resolve from 'rollup-plugin-node-resolve'
 import pkg from './package.json'
+import copy from 'rollup-plugin-copy'
 
 const config = {
   name: 'DesignSystem',
@@ -46,6 +47,13 @@ export default {
       extensions: config.extensions,
       include: ['src/**/*'],
       exclude: 'node_modules/**',
+    }),
+
+
+    // d.ts 복사하기
+    copy({
+      targets: [{ src: 'src/**/*.d.ts', dest: 'dist' }],
+      flatten: false, // Preserve directory structure
     }),
   ],
 }
