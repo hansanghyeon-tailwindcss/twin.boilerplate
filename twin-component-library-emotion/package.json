@@ -18,7 +18,7 @@
     "type-check:watch": "yarn type-check -- --watch",
     "build:types": "tsc -p tsconfig.prod.json",
     "build:js": "rollup -c --bundleConfigAsCjs",
-    "build": "yarn build:types && yarn build:js"
+    "build": "rimraf ./dist && yarn build:types && yarn build:js"
   },
   "peerDependencies": {
     "@emotion/react": "^11.10.5",
@@ -45,6 +45,7 @@
     "postcss": "^8.4.20",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rimraf": "^5.0.1",
     "rollup": "^3.7.3",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-commonjs": "^10.1.0",
