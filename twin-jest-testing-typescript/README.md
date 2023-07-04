@@ -1,4 +1,4 @@
-<a href="https://stackblitz.com/github/Hansanghyeon/boilerplate/tree/main/twin-jest-testing-typescrip">
+<a href="https://stackblitz.com/github/Hansanghyeon/boilerplate/twin-jest-testing-typescript">
   <img
     alt="Open in StackBlitz"
     src="https://developer.stackblitz.com/img/open_in_stackblitz_small.svg"
