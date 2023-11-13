@@ -87,8 +87,8 @@ export const LangRouter = () => {
   };
 
   const renderRouteWithChildren = (routes: RouteWithChildrenInterface[]) => {
-    return routes.map((route, index) => (
-      <Route path={route.path(locale)} element={route.element}>
+    return routes.map((route) => (
+      <Route key={route.path(locale)} path={route.path(locale)} element={route.element}>
         {route.children && renderRouteWithChildren(route.children)}
       </Route>
     ));

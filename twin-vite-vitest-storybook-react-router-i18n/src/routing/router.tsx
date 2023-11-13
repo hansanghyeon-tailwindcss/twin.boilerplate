@@ -1,7 +1,6 @@
 import React, { Suspense } from 'react'
 import { pipe } from 'fp-ts/function'
 import * as A from 'fp-ts/Array'
-import App from 'App'
 import { type RouteWithChildrenInterface } from './routing-interface'
 
 // ============================================= ROUTER START
@@ -19,7 +18,7 @@ const pages = pipe(
 );
 
 const DynamicComponent = ({ path }: { path: string }) => {
-  const LazyComponent = React.lazy(() => import(path));
+  const LazyComponent = React.lazy(() => import(/* @vite-ignore */path));
 
   return (
     <Suspense fallback={<div>Loading...</div>}>

@@ -1,6 +1,4 @@
-const _ = require('lodash')
-
-module.exports = _.merge({}, {
+module.exports = {
   content: ['./src/**/*.tsx'],
   plugins: [
     require('@tailwindcss/typography'),
@@ -8,4 +6,4 @@ module.exports = _.merge({}, {
     require('@tailwindcss/line-clamp'),
     require('@tailwindcss/aspect-ratio'),
   ],
-})
+}

@@ -19,8 +19,9 @@ const fetchLanguageJson = (filePath: string) =>
   pipe(
     TE.tryCatch(
       async () => {
-        const jsonData = await import(filePath);
-        return JSON.parse(JSON.stringify(jsonData)).default;
+        console.log(filePath)
+        const jsonData = await import(/* @vite-ignore */filePath)
+        return JSON.parse(JSON.stringify(jsonData)).default
       },
       (error) => `Error fetching data from ${filePath}: ${String(error)}`
     ),
