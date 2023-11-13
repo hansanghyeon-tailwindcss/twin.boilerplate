@@ -1,6 +1,6 @@
-[![Stackblitz](https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD)](https://stackblitz.com/fork/github/hansanghyeon-boilerplate/twin.macro-vite-vitest-storybook-library)
+[![Stackblitz](https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD)](https://stackblitz.com/fork/github/hansanghyeon/boilerplate/twin.macro-vite-vitest-storybook-library)
 
-이 저장소는 [hansanghyeon-boilerplate/twin.macro-vite-vitest-storybook](https://github.com/hansanghyeon-boilerplate/twin.macro-vite-vitest-storybook) 기반으로 라이브러리 설정으로 변경하였습니다.
+이 저장소는 [hansanghyeon/boilerplate/twin.macro-vite-vitest-storybook](https://github.com/hansanghyeon/boilerplate/twin.macro-vite-vitest-storybook) 기반으로 라이브러리 설정으로 변경하였습니다.
 
 ```bash
 yarn install && yarn build

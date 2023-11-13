@@ -1,10 +1,10 @@
-[![Stackblitz](https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD)](https://stackblitz.com/fork/github/hansanghyeon-boilerplate/twin.macro-vite-vitest-storybook-react-router)
+[![Stackblitz](https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD)](https://stackblitz.com/fork/github/hansanghyeon/boilerplate/twin.macro-vite-vitest-storybook-react-router)
 
 ```sh
 npx degit https://github.com/hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router example-project
 ```
 
-이 저장소는 [hansanghyeon-boilerplate/twin.macro-vite-vitest](https://github.com/hansanghyeon-boilerplate/twin.macro-vite-vitest) 기반으로 storybook만 추가되었습니다.
+이 저장소는 [hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router](https://github.com/hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router) 기반으로 react-router 파일기반의 라우터를 추가하였다.
 
 추가된 사항
 
