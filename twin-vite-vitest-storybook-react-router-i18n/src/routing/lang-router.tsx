@@ -1,4 +1,4 @@
-import { createContext, useEffect, useRef, useState } from 'react';
+import React, { Fragment, createContext, useEffect, useRef, useState } from 'react';
 import { Route, RouterProvider, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { RouteWithChildrenInterface } from './routing-interface';
 import router from './router';
@@ -88,7 +88,8 @@ export const LangRouter = () => {
 
   const renderRouteWithChildren = (routes: RouteWithChildrenInterface[]) => {
     return routes.map((route) => (
-      <Route key={route.path(locale)} path={route.path(locale)} element={route.element}>
+      // @ts-ignore
+      <Route key={route.path(locale) as string} path={route.path(locale)} element={route.element}>
         {route.children && renderRouteWithChildren(route.children)}
       </Route>
     ));
