@@ -1,15 +1,27 @@
-[![Stackblitz](https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD)](https://stackblitz.com/fork/github/hansanghyeon/boilerplate/twin.macro-vite-vitest-storybook-react-router-i18next)
+[![Stackblitz](https://img.shields.io/badge/Stackblitz-fff?style=for-the-badge&logo=Stackblitz&logoColor=1389FD)](https://stackblitz.com/fork/github/hansanghyeon/boilerplate/twin.macro-vite-vitest-storybook-react-router-i18n)
 
 ```sh
-npx degit https://github.com/hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router-i18next example-project
+npx degit https://github.com/hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router-i18n example-project
 ```
 
-이 저장소는 [hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router-i18next](https://github.com/hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router-i18next) 기반으로 i18next를 추가하였다.
+이 저장소는 [hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router](https://github.com/hansanghyeon/boilerplate/twin-vite-vitest-storybook-react-router) 기반으로 국제화를 추가하였다.
 
 추가된 사항
 
 ```bash
 npx sb@next init --builder vite
+```
+
+## TL;DR
+
+```jsx
+import { useTT } from 'utils/i18n'
+import { format } from 'utils/date'
+
+const App = () => {
+  const { __ } = useTT()
+  return <div>{__('안녕하세요')} {format(new Date()}</div>
+}
 ```
 
 ## i18next parser
