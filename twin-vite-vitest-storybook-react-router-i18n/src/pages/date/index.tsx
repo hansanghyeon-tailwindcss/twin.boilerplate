@@ -1,5 +1,5 @@
 import React from 'react'
-import { format } from 'utils/date'
+import { format } from '~/utils/date'
 
 const DatePage = () => {
   return (

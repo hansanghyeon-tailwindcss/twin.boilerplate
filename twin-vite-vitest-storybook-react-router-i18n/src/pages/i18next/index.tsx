@@ -1,5 +1,5 @@
 import React from 'react'
-import { useTT } from 'utils/i18n'
+import { useTT } from '~/utils/i18n'
 
 const I18next = () => {
   const { __ } = useTT()

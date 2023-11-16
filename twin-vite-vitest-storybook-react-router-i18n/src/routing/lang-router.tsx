@@ -4,14 +4,9 @@ import { RouteWithChildrenInterface } from './routing-interface';
 import router from './router';
 import { useTranslation } from 'react-i18next';
 import { getDefaultLanguage } from './router-helper';
-import App from 'App';
-import { isAuthenticated } from 'constants/helpers';
-
-export const LocaleContext = createContext({
-  locale: '',
-  // eslint-disable-next-line
-  setLocale: (newLocale: string) => {},
-});
+import App from '~/App';
+import { isAuthenticated } from '~/constants/helpers';
+import { LocaleContext } from './lang-router.context';
 
 export const LangRouter = () => {
   const { i18n } = useTranslation()

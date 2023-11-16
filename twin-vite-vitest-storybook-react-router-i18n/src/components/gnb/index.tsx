@@ -1,6 +1,6 @@
 import { pipe } from 'fp-ts/function'
 import * as A from 'fp-ts/Array'
-import LLink from "components/locale-link";
+import { LLink } from "~/utils/i18n";
 
 const GNB = () => {
   return (

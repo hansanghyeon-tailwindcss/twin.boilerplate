@@ -1,11 +1,19 @@
+import path from 'path'
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tsconfigPaths from 'vite-tsconfig-paths'
+import topLevelAwait from 'vite-plugin-top-level-await'
 
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/', // 👈 absolute path
   plugins: [
+    topLevelAwait({
+      // The export name of top-level await promise for each chunk module
+      promiseExportName: '__tla',
+      // The function to generate import names of top-level await promise in each chunk module
+      promiseImportName: (i) => `__tla_${i}`,
+    }),
     react({
       babel: {
         plugins: [
@@ -19,9 +27,16 @@ export default defineConfig({
         ]
       }
     }),
-    tsconfigPaths(),
   ],
   define: {
     'process.env': {},
+  },
+  resolve: {
+    alias: [
+      {
+        find: '~',
+        replacement: path.resolve(__dirname, 'src'),
+      },
+    ],
   },
 })

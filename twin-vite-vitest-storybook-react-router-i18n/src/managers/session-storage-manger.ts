@@ -1,4 +1,4 @@
-import { decryptData, encryptData } from 'constants/helpers'
+import { decryptData, encryptData } from '~/constants/helpers'
 
 class SessionStorageManager {
   static setItem(key: string, data: any) {

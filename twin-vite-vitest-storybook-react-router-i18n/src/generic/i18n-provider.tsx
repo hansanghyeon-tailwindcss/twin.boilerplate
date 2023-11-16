@@ -1,6 +1,6 @@
 import { I18nextProvider } from 'react-i18next'
 import React, { PropsWithChildren } from 'react'
-import { overrideI18n } from '../utils/i18n'
+import { overrideI18n } from '~/utils/i18n'
 
 interface WithI18nextProps extends PropsWithChildren {
   locale?: string

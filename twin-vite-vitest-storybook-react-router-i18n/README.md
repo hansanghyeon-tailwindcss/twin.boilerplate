@@ -15,8 +15,8 @@ npx sb@next init --builder vite
 ## TL;DR
 
 ```jsx
-import { useTT } from 'utils/i18n'
-import { format } from 'utils/date'
+import { useTT } from '~/utils/i18n'
+import { format } from '~/utils/date'
 
 const App = () => {
   const { __ } = useTT()

@@ -13,10 +13,4 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": {
-      "@/storybook/*": ["./.storybook/*"],
-    }
-  }
 }
