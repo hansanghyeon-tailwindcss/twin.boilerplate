@@ -1,12 +1,9 @@
-<a href="https://stackblitz.com/github/Hansanghyeon/twin.macro-boilerplate/vite-emotion-typescript">
+<a href="https://stackblitz.com/github/Hansanghyeon/twin.boilerplate/tree/main/vite-emotion-typescript">
   <img
     alt="Open in StackBlitz"
     src="https://developer.stackblitz.com/img/open_in_stackblitz_small.svg"
   />
 </a>
-
-
-<a href="https://stackblitz.com/github/Hansanghyeon/twin.macro-boilerplate/vite-emotion-typescript
 
 # Twin + Vite + Emotion + TypeScript
 
